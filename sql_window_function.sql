@@ -53,7 +53,7 @@ group by dept_name;
 
 
 SELECT dept_name,dept_id,MAX(salary) as max_salary from employees
-group by dept_name;
+group by dept_name; -- ERROR!!!
 
 
 
